@@ -1,0 +1,59 @@
+.Footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+  background-image: url(https://i.ibb.co/tqpZKg2/footer-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 100px;
+}
+
+.Footer-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+.Footer::after {
+  color: white;
+}
+
+.About-autolane {
+  padding: 0 25px;
+}
+.About-title {
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+.datelis {
+  color: #747474;
+}
+.address-contact {
+  display: flex;
+}
+.add-icon {
+  color: #ffffff;
+  margin-top: 9px;
+  height: 30px;
+  width: 31px;
+  font-size: 30px;
+  margin-right: 14px;
+}
+.address {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.address1 {
+  font-size: 15px;
+  color: #747474;
+}
+.icong:hover .add-icon {
+  color: rgb(238, 208, 73);
+}
+.icong {
+  display: flex;
+}

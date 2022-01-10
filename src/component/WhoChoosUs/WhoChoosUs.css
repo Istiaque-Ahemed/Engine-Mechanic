@@ -1,0 +1,115 @@
+.whyChoosUs {
+  position: relative;
+  width: 1265px;
+  height: 733px;
+}
+.whyChoosUs::before {
+  content: "";
+  background-image: url(https://i.ibb.co/svBSdQD/ac-service-header-BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -215px 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.05;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.whyChoos {
+  text-align: center;
+  font-family: "Yellowtail", cursive;
+  color: #d90429;
+  font-size: 23px;
+  font-weight: 700;
+  padding-top: 80px;
+}
+.Advantages {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+}
+.single-advantages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 41px;
+  font-family: "Roboto", sans-serif;
+}
+.advantages-1,
+.advantages-2,
+.advantages-3,
+.advantages-4,
+.advantages-2,
+.advantages-5,
+.advantages-6 {
+  display: flex;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 42%);
+  margin: 20px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.all-title {
+  font-size: 19px;
+  font-weight: bold;
+}
+.advantage-para {
+  color: #939393;
+}
+.icon-1 {
+  color: white;
+  background-color: #d90429;
+  padding: 30px 10px;
+  font-size: 25px;
+  margin: 0 30px 0 0;
+}
+.advantages-1:hover .icon-1 {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #b83046;
+}
+.advantages-2:hover .icon-1 {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #b83046;
+}
+.advantages-3:hover .icon-1 {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #b83046;
+}
+.advantages-4:hover .icon-1 {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #b83046;
+}
+.advantages-5:hover .icon-1 {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #b83046;
+}
+.advantages-6:hover .icon-1 {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #b83046;
+}
+.advantages-1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.4rem;
+  background: #f7e38c;
+  left: 0;
+  bottom: -1px;
+}
+.advantages-1::after {
+  transform: scale(0, 1);
+  transform-origin: 0% 100%;
+  transition: transform 0.3s ease;
+}
+.advantages-1:hover::after {
+  transform: scale(1, 1);
+}

@@ -1,0 +1,44 @@
+.mini-title {
+  font-family: "Yellowtail", cursive;
+  color: #d90429;
+  font-size: 23px;
+  font-weight: 700;
+}
+.description {
+  font-size: 17px;
+  color: #939393;
+}
+.span-1 {
+  font-weight: 700;
+  font-size: 17px;
+}
+.span-2 {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.span-3 {
+  font-weight: 700;
+  font-size: 17px;
+}
+.first-part {
+}
+
+.car-repair {
+  padding: 100px;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ceo-part {
+  display: flex;
+}
+
+.second {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.pic {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,56 @@
+.image-id-1 ::before {
+  opacity: 0.3;
+  background-color: #000000;
+}
+.theme-slider {
+}
+.first-carosal {
+  height: 650px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+}
+.carousel-caption {
+  padding-bottom: 300px;
+}
+.Top-hader {
+  color: #f6d72d;
+  font-weight: 700;
+  font-family: "Yellowtail", cursive;
+  font-size: 23px;
+}
+.main-hader {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.full-button {
+  background-color: red;
+  padding: 20px 20px;
+  color: white;
+  border: none;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+.full-button:hover {
+  background-color: #d90429;
+}
+.gap-button {
+  padding: 20px 20px;
+  background-color: none;
+  color: white;
+  margin-top: -2px;
+  border-color: white;
+}
+.gap-button:hover {
+  background-color: red;
+}
+.heder-extra {
+  background-color: black;
+  height: 900px;
+}
+.haderDetalis {
+  background-color: white;
+  display: inline-block;
+  height: 263px;
+  width: 240px;
+  margin-top: -8px;
+  z-index: -9;
+}
