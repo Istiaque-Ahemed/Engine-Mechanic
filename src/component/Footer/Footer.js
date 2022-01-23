@@ -47,9 +47,57 @@ const Footer = () => {
                                </div>
                             </div>
                         </div>  
-                    <div>
+                    <div className='opening-details'>
                     <h5 className='About-title'>Opening Hours</h5>
+                    <div >
+                        
+                            <div className="opening-hours">
+                            <p style={{marginRight:""}}>Monday</p>
+                            <span className='time'>08:00 - 18:00</span>
+                            </div>
+                           
+                            <hr style={{color:"rgb(245 245 245)",margin:"0px"}} />
+
+                            <div className="opening-hour">
+                            <p style={{marginRight:""}}>Tuesday</p>
+                            <span className='time'>08:00 - 18:00</span>
+                            </div>
+                             <hr style={{color:"rgb(245 245 245)",margin:"0px"}} />
+
+                            <div className="opening-hour">
+                            <p style={{marginRight:""}}>Wednesday</p>
+                            <span className='time'>08:00 - 18:00</span>
+                            </div>
+                             <hr style={{color:"rgb(245 245 245)",margin:"0px"}} />
+
+                            <div className="opening-hour">
+                            <p style={{marginRight:""}}>Thursday</p>
+                            <span className='time'>09:00 - 15:30</span>
+                            </div>
+
+                            <hr style={{color:"rgb(245 245 245)",margin:"0px"}} />
+
+                            <div className="opening-hour">
+                            <p style={{marginRight:""}}>Friday</p>
+                            <span className='time1'>We're Closed</span>
+                            </div>
+
+                            <hr style={{color:"rgb(245 245 245)",margin:"0px"}} />
+
+                            <div className="opening-hour">
+                            <p style={{marginRight:""}}>Saturday</p>
+                            <span className='time'>08:00 - 18:00</span>
+                            </div>
+                            <hr style={{color:"rgb(245 245 245)",margin:"0px"}} />
+
+                            <div className="opening-hour">
+                            <p style={{marginRight:""}}>Sunday</p>
+                            <span className='time'>08:00 - 18:00</span>
+                            </div>
+                
+                          
                     
+                    </div>
                     </div>
                 </Container>
 

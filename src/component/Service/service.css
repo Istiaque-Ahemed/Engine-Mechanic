@@ -1,0 +1,13 @@
+.service-card {
+  background-color: #ffffff;
+  color: black;
+  width: 250px;
+  height: 520px;
+  margin: 30px;
+}
+.card-details {
+  padding: 40px;
+}
+.card-details p {
+  color: #939393;
+}

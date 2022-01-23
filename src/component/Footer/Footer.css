@@ -6,7 +6,7 @@
   background-size: cover;
   padding-top: 100px;
   font-family: "Roboto", sans-serif;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .Footer-2 {
@@ -56,4 +56,27 @@
 }
 .icong {
   display: flex;
+}
+.opening-details {
+  padding: 0 25px;
+}
+.opening-hours {
+  display: flex;
+  justify-content: space-between;
+  color: #747474;
+}
+.opening-hour {
+  display: flex;
+  justify-content: space-between;
+  color: #747474;
+}
+.time {
+  color: #979797;
+  font-size: 15px;
+  font-weight: 900;
+}
+.time1 {
+  font-size: 15px;
+  font-weight: 900;
+  color: #f6d72d;
 }

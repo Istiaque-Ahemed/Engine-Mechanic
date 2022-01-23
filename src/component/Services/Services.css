@@ -1,0 +1,35 @@
+.services {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+  background-image: url(https://i.ibb.co/tqpZKg2/footer-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 80px;
+}
+.single-service {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-left: 22px;
+}
+.text p {
+  color: #818181;
+}
+.text span {
+  color: #f6d72d;
+  font-family: "Yellowtail", cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+.text h1 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 400px;
+}

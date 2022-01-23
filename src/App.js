@@ -7,19 +7,32 @@ import HeaderExtra from './component/HaderExtra/HeaderExtra';
 import CarRepair from './component/CarRepairDT/CarRepair';
 import WhyChoosUs from './component/WhoChoosUs/WhyChoosUs';
 import Footer from './component/Footer/Footer';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Home from './component/Home/Home';
+import ServiceDetalis from './component/ServiceDetalis/ServiceDetalis';
 
 function App() {
   return (
-    <div className="App">
-      <NavBer></NavBer>
-      <Banner></Banner>
-      <HeaderExtra></HeaderExtra>
-      <CarRepair></CarRepair>
-      <WhyChoosUs></WhyChoosUs>
-      <Footer></Footer>
+    <>
+     <BrowserRouter>
+     <Routes>
 
+       <Route path="/" element={<Home/>} >
+
+       </Route>
+       <Route path="/footer" element={<Footer/>}></Route>
+       <Route path="/service/:serviceId" element={[<NavBer/>,<ServiceDetalis/>,<Footer/>]} >
+       </Route>
+
+     </Routes>
+     
+     </BrowserRouter>
       
-    </div>
+    </>
   );
 }
 
