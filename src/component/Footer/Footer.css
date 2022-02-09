@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
+  padding-top: 40px;
 }
 .Footer::after {
   color: white;

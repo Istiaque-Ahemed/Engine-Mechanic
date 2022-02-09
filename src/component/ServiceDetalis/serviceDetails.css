@@ -15,3 +15,7 @@
   font-weight: 700;
   font-size: 52px;
 }
+.details-banner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

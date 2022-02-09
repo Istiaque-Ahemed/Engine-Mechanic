@@ -35,10 +35,18 @@ const ServiceDetalis = () => {
     },[])
     return (
         <div>
+           <div>
            <img src={pageHeaderImg} alt="" />
+           </div>
            <div className='Hader-text'>
-           <span>{bannerTille}</span>
-           <h3>{bannerHeading}</h3>
+            <span>{bannerTille}</span>
+            <h3>{bannerHeading}</h3>
+           </div>
+           <div className='details-banner'>
+               <div className="all-service">
+                   <h2>kdddk</h2>
+               </div>
+
            </div>
         </div>
     );
